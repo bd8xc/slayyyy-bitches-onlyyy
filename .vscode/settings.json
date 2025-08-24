@@ -1,0 +1,38 @@
+{
+  "files.associations": {
+    "stdlib.h": "c"
+  },
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "my-local-mysql",
+      "group": "my-local-mysql",
+      "username": "root",
+      "database": "new_db"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Local MySQL",
+      "username": "root",
+      "connectionTimeout": 10000,
+      "database": "mysql"
+    }
+  ]
+}
